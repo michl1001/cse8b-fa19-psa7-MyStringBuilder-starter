@@ -222,7 +222,6 @@ Afterwards if we call `msb.append(‘b’)`, then:
 
 ![](./writeup_pics/three_nodes.png)
 
-**HINT**: You must “remember” where you are as you iterate through the nodes.  
 
 **`public MyStringBuilder append (String str) throws BadInputException`**
 
