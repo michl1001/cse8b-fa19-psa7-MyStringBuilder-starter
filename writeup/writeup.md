@@ -233,7 +233,7 @@ This method should append an entire string to the end of your current MyStringBu
 ### toString()
 **`public String toString()`**
 
-Since the MSB class is a way to manipulate and store Strings, we should have a `toString()` method which returns an actual `String` object of our stored String. This function accomplishes that goal. Yet, what we currently have is not a char array or a String, but a sequence of nodes of chars. This function takes this sequence of CharNodes and turns the sequence of chars into a `String`. The logic should be similar to the `append()` method, but instead of inserting a character we are simply reading through each character we already have.
+Since the MSB class is a way to manipulate and store Strings, we should have a `toString()` method which returns an actual `String` object of our stored String. This function accomplishes that goal. Yet, what we currently have is not a char array or a String, but a sequence of nodes of chars. This function takes this sequence of CharNodes and turns the sequence of chars into a `String`. 
 
 ### Test Your Code 
 It might be a good idea to stop now and test your append and `toString()` methods. You can run `Main.java` and try appending a few different Strings. Try to append single characters and complete Strings. Are there any exceptions when you run it? Does toString return the correct String? If not, go back to your code and trace through your logic. It helps greatly to draw a memory model diagram of your MyStringBuilder as you trace through your code.
